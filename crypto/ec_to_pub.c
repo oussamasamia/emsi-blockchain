@@ -1,6 +1,11 @@
 #include "hblk_crypto.h"
 
-
+/**
+ * ec_to_pub - extracting public key from EC_KEY struct
+ * @key: point to EC_KEY structure
+ * @pub: adr of buffer to populate with pub key
+ * Return: adr of populated buffer or NULL
+ */
 
 uint8_t *ec_to_pub(EC_KEY const *key, uint8_t pub[EC_PUB_LEN])
 {
