@@ -1,4 +1,4 @@
-k#include "hblk_crypto.h"
+#include "hblk_crypto.h"
 
 /**
  * ec_sign - sign a set of bytes, using given private EC_KEY
