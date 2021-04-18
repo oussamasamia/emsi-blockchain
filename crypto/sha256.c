@@ -16,4 +16,3 @@ return (NULL);
 return (SHA256((const unsigned char *)s, len, digest));
 }
 
-
